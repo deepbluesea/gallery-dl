@@ -6,8 +6,7 @@ from __future__ import unicode_literals, print_function
 import sys
 import os.path
 
-if sys.hexversion < 0x3040000:
-    sys.exit("Python 3.4+ required")
+
 
 try:
     from setuptools import setup
